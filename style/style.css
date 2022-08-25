@@ -1,0 +1,49 @@
+.index{
+    background-color: rgb(255, 250, 241);
+    text-align: center;
+}
+
+.index a:link, a:visited, a:hover, a:active { 
+    font-size: 32px;
+    background-color: rgb(255, 108, 108); 
+    color: black; 
+    padding: 3px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+.index #pas:hover:after {
+    content: url(../recipes/img/pasta.jpg); /* no need for qoutes */
+    display: block;
+}
+.index #ris:hover:after {
+    content: url(../recipes/img/risotto.jpg); /* no need for qoutes */
+    display: block;
+}
+.index #lasa:hover:after {
+    content: url(../recipes/img/lasagna.jpeg); /* no need for qoutes */
+    display: block;
+}
+
+.recipe{
+    background-color: wheat;
+}
+
+.recipe h1{
+    text-align: center;
+}
+
+.recipe h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+}
+
